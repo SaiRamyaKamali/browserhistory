@@ -1,0 +1,37 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 900px;
+}
+.logo-container {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.delete-btn {
+  justify-self: flex-end;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.domain-class {
+  color: grey;
+}
+
+.delete-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
